@@ -18,6 +18,10 @@ The app stores your tasks locally using **localStorage**, so your data persists 
 
 ---
 
+## 🖼️ App Preview
+
+![To-Do App](images/ToDoApp.png)
+
 ## ▶️ Demo Video
 
 Below is a short video demonstrating how the app works:
