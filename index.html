@@ -1,26 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To-Do List App</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>To-Do App</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.22.2/dist/sweetalert2.all.min.js"></script> 
 </head>
-<body>
-    <div class="container">
-        <div class="todo-app">
-            <h2>To-Do List <img src="images/icon.png"></h2>
-            <div class="row">
-                <input types="text" id="input-box" placeholder="Add your text">
-                <button>Add</button>
-            </div>
-            <ul id="list-container">
-                <li> Task 1</li>
-                <li> Task 2</li>
-                <li> Task 3</li>
-            </ul>
-        </div>
-        
-    </div>
+<body class="bg-indigo-200 min-h-screen">
+  <div class="max-w-3xl mx-auto p-6">
+    <h1 class="text-3xl font-bold text-blue-500 mb-6">📝 My To‑Do App</h1>
+
+    <form id="main-task-form" class="flex mb-6">
+      <input id="main-task-input" type="text" placeholder="Add new main task…" required
+             class="flex-1 p-3 border rounded-l"/>
+      <button type="submit" class="px-4 bg-green-500 hover:bg-green-600 text-white rounded-r">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block" fill="none"
+             viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M12 4v16m8-8H4"/>
+        </svg>
+      </button>
+    </form>
+
+    <ul id="task-list" class="space-y-4"></ul>
+
+    <footer class="mt-8 text-center text-gray-600">
+      Made with ❤️ by Tharushi Paranagama
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
