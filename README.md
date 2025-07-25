@@ -22,7 +22,7 @@ The app stores your tasks locally using **localStorage**, so your data persists 
 
 Below is a short video demonstrating how the app works:
 
-[![Watch the Demo Video](Video/ToDoApp_Thumbnail.png)](https://youtu.be/dSmouA9yPVU)
+[![Watch the Demo Video](images/ToDoApp.png)](https://youtu.be/dSmouA9yPVU)
 
 
 how_to_run_locally:
