@@ -22,9 +22,8 @@ The app stores your tasks locally using **localStorage**, so your data persists 
 
 Below is a short video demonstrating how the app works:
 
-<video width="100%" controls>
-  <source src="Video/ToDoApp.mp4" type="video/mp4" />
-</video>
+[Watch Demo Video](Video/ToDoApp.mp4)
+
 
 how_to_run_locally:
   - "📥 Clone the repository or download the source files."
