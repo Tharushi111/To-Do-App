@@ -41,13 +41,6 @@ technologies_used:
   - "🔔 SweetAlert2 for modals and alerts"
   - "💾 Browser localStorage for data persistence"
 
-future_enhancements:
-  - "👤 Add user authentication for personal accounts."
-  - "🔄 Sync tasks across devices with backend support."
-  - "⏰ Add deadline reminders and notifications."
-  - "🌙 Dark mode toggle."
-  - "📦 Export/import task data as JSON or PDF."
-
 license: "📜 This project is open source and available under the MIT License."
 
 
